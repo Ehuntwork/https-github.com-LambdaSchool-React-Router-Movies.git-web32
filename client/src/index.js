@@ -4,4 +4,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import {} from 'react-router-dom';
+import { Router } from 'express';
+
+
+ReactDOM.render(
+    <Router>
+        <App />
+    </Router>,
+ document.getElementById('root'));
